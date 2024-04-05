@@ -24,6 +24,8 @@ body{
     max-width: 450px;
 }
 .input-cidade{
+    display: flex;
+    flex-wrap: wrap;
     border: none;
     outline: none;
     padding: 10px;
@@ -31,19 +33,19 @@ body{
     font-size: 20px;
     background-color: #faf8f82b;
     color:#fffefe;
-    width:calc(100%-100px);
+    width:85%;
     
     
 }
 
 .botao-busca{
-border: none;
-outline: none;
-padding: 10px;
-border-radius: 25px;
-background-color: rgb(216, 210, 210);
-cursor: pointer;
-float: right;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(216, 210, 210);
+  cursor: pointer;
+  float: right;
 
 }
 .img-busca{
